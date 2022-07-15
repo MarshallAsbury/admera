@@ -41,15 +41,15 @@ To combat this, the company has asked its team of programmers to automate the or
 
 The lab has been gracious enough to provide a basic visualization of the lab's workflow.
 
-
+ ILL MAKE THIS LATER SORRY
 sample (direction 1) --> sample (direction 2 FOR DIFFERENT SERVICE) --> PQ step in middle
 --> different service is to test future proofing
 
 
-## Queston
+## Question
 
-You're job is to develop a Priority Queue that will automatically assign a priority level to incoming samples before they reach the lab.
-Lab scientists will use the assigned priority level to decide which samples to sequence first.
+You're job is to develop a Priority Queue that will assign a priority level to given samples and organize them based on this priority.
+The notification program developed by other members of the team will use this Priority Queue to decide when to send samples to the lab for sequencing.
 
 There are two types of samples and each have different turnover rates.
 Turnover starts the day a sample is received by the company.
@@ -58,17 +58,20 @@ Types:
 - Regular Sample
     - Sequencing data must be delivered within 14 days
 - Expedited Sample
-    - Clients pay extra for sped up services
+    - Clients pay extra for faster services
     - Sequencing data must be delivered within 7 days
 
 Each sample will have the following information
-1. The day the sample was received by the company
-2. Whether the sample is a regular or expedited sample
+1. A sample id
+2. The day the sample was received by the company
+3. Whether the sample is a regular or expedited sample
 
 If a sample is delayed, as in by the time the lab receives a sample it has already missed its expected delivery date, it has 3 days to be delivered.
 
 Priority should be determined by how many days are left until its expected delivery date.
-Feel free to use the provided test data file pq_test_data.txt.
-For testing, assume the current date is 07/18/2022.
 
 Once lab receives a sample it takes a full day for data to be delivered.
+
+Feel free to use the provided test data file 'pq_test_data.txt'.
+
+For testing, assume the current date is 07/18/2022.
