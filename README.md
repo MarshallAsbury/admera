@@ -21,11 +21,12 @@ No external libraries or modules are allowed.
 
 # Problem A (estimated time 1 hour)
 
-1. Implement a Binary Search Tree (BST)
+1. Implement a Balanced BST (Binary Search Tree)
 2. Create a function that convert can convert the following list to a BST
-    - [5, 10, 12, 6, 100000, 9, 75]
-3. Create a function that can convert the BST back into a list
-    - The resulting list's order does not matter
+    - [1, 5, 10, 12, 6, 100000, 9, 8, 75]
+3. Create a search function that finds a given number
+    - If a number is found the function should return the search path as a list
+4. Use the function from #3 to search for the number 10
 
 # Problem B (estmated time 3 hours)
 
