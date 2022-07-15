@@ -36,7 +36,7 @@ You are a programmer working for a renowned genetics company. The company's main
 
 The demand for the company's NGS service is growing rapidly and prioritizing projects has become difficult.
 Until now, the NGS team in the lab has been sequencing samples first come first serve. As in, samples are sequenced in the order the lab receives them. However, this is not efficient. Some samples that arrive sooner may have a delivery date that's way into the future. Other samples received after, may be due incredibly soon.
-The NGS team and project management have attempted to combat this but frequently communicating over email.
+The NGS team and project management have attempted to remedy this by frequently communicating over email.
 However, with the large sample volume this form of communication has become infeasible.
 To combat this, the company has asked its team of programmers to automate the organizing and prioritizing of client samples.
 
