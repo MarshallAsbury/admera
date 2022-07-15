@@ -1,0 +1,13 @@
+sample_id,date_received,sample_type
+A,07/05/2022,regular
+B,07/12/2022,expedited
+C,07/18/2022,regular
+D,06/05/2022,regular
+E,07/15/2022,expedited
+F,07/16/2022,regular
+G,07/14/2022,expedited
+H,07/18/2022,expedited
+I,07/13/2022,regular
+J,07/15/2022,expedited
+L,07/04/2022,regular
+M,07/11/2022,expedited
