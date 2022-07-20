@@ -19,12 +19,12 @@ You may complete the following assessment in any programming language you like.
 However, you must implement each solution with only default, basic data structures.
 No external libraries or modules are allowed.
 
-# Problem A (estimated time 1 hour)
+# Problem A
+1. Design a Binary Heap
+2. Using the design from #1, implement a Min Heap
+3. Using the design from #1, implement a Max Heap
 
-1. Implement a Binary Heap
-2. Implement either a Min Heap or Max Heap
-
-# Problem B (estimated time 1.5 hour)
+# Problem B
 
 1. Implement a Binary Search Tree (BST)
 2. Create a function that convert can convert the following list to a BST
@@ -33,7 +33,7 @@ No external libraries or modules are allowed.
     - If a number is found the function should return the search path as a list
 4. Use the function from #3 to search for the number 10
 
-# Problem C (estmated time 3 hours)
+# Problem C
 
 ## Background
 
@@ -50,7 +50,6 @@ The lab has been gracious enough to provide a basic visualization of the lab's w
  ILL MAKE THIS LATER SORRY
 sample (direction 1) --> sample (direction 2 FOR DIFFERENT SERVICE) --> PQ step in middle
 --> different service is to test future proofing
-
 
 ## Question
 
@@ -81,14 +80,3 @@ Once lab receives a sample it takes a full day for data to be delivered.
 Feel free to use the provided test data file 'pq_test_data.txt'.
 
 For testing, assume the current date is 07/18/2022.
-
-
-
-# Notes
-
-- the true answer is to re-use problem A to solve problem B
-- this is by no means required to pass the assessment, but is the "hidden" answer if the candidate can realzie this huge bonus points
-- this can be done in a few ways
-    - support duplicate #s in a balanced BST by implementing a Node structure instead of using just the numbers or an all dups go left/right rule
-    - adjust the tree code to implement a heap tree
-        - a heap tree is the most optimal solution to Problem B
