@@ -45,7 +45,7 @@ The NGS team and project management have attempted to remedy this by frequently 
 However, with the large sample volume this form of communication has become infeasible.
 To combat this, the company has asked its team of programmers to automate the organizing and prioritizing of client samples.
 
-The lab has also expressed if this is successful, they would like to apply this priority program to other services the lab provides which have different ways of priortizing samples.
+The lab has also expressed if this is successful, they would like to apply this priority program to other services the lab provides. Some services also use samples, others receive different inputs from customers.
 
 ## Question
 
