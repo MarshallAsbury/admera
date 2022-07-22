@@ -1,9 +1,7 @@
 # Admera Take Home Assessment
 
-The following is a take home assesment to review your skills with designing and implementing solutions with code.
-The estimated times for each problem are for reference and are not relevant to the assessment's overall grading.
-You will have 1 week to complete this assessment prior and can spend as much as needed to complete the assessment within that time frame.
-You will go over your solutions during the interview.
+The following is a take home assesment to review your skills with designing and implementing solutions in code.
+You will have 1 week to complete this assessment and can spend as long as needed to complete the assessment within that time frame. We will go over your solutions during the interview.
 
 The solutions will be reviewed for:
 - Completion
@@ -15,9 +13,10 @@ The solutions will be reviewed for:
 - Code quality
     - Is the code up to common development standards?
 
-You may complete the following assessment in any programming language you like.
-However, you must implement each solution with only default, basic data structures.
-No external libraries or modules are allowed.
+You may complete the following assessment in any programming language you'd like.
+However, you may not use any libraries or third party modules that trivialize the problem.
+
+For example, using the heapq module in python3 for Problem A is not allowed.
 
 # Problem A
 1. Design a Binary Heap
@@ -40,16 +39,13 @@ No external libraries or modules are allowed.
 You are a programmer working for a renowned genetics company. The company's main service is providing NGS to clients, where clients send biological samples to the company and the company sends back sequencing data.
 
 The demand for the company's NGS service is growing rapidly and prioritizing projects has become difficult.
-Until now, the NGS team in the lab has been sequencing samples first come first serve. As in, samples are sequenced in the order the lab receives them. However, this is not efficient. Some samples that arrive sooner may have a delivery date that's way into the future. Other samples received after, may be due incredibly soon.
+Until now, the NGS team in the lab has been sequencing samples first come first serve. As in, samples are sequenced in the order the lab receives them. However, this is not efficient. Some samples that arrive sooner may have a delivery date that's way into the future. Other samples may be due immediately after lab receives them.
+
 The NGS team and project management have attempted to remedy this by frequently communicating over email.
 However, with the large sample volume this form of communication has become infeasible.
 To combat this, the company has asked its team of programmers to automate the organizing and prioritizing of client samples.
 
-The lab has been gracious enough to provide a basic visualization of the lab's workflow.
-
- ILL MAKE THIS LATER SORRY
-sample (direction 1) --> sample (direction 2 FOR DIFFERENT SERVICE) --> PQ step in middle
---> different service is to test future proofing
+The lab has also expressed if this is successful, they would like to apply this priority program to other services the lab provides which have different ways of priortizing samples.
 
 ## Question
 
@@ -75,8 +71,8 @@ If a sample is delayed, as in by the time the lab receives a sample it has alrea
 
 Priority should be determined by how many days are left until its expected delivery date.
 
-Once lab receives a sample it takes a full day for data to be delivered.
+Sequencing data will be delivered the day after lab receives the sample.
 
 Feel free to use the provided test data file 'pq_test_data.txt'.
 
-For testing, assume the current date is 07/18/2022.
+Assume the current date is 07/18/2022.
