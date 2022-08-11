@@ -1,5 +1,10 @@
 # Admera Take Home Assessment
 
+## Directions:
+
+1. Clone this repository
+2. Store your solution in your own Github repository
+
 The following is a take home assesment to review your skills with designing and implementing solutions in code.
 You will have 1 week to complete this assessment and can spend as long as needed to complete the assessment within that time frame. We will go over your solutions during the interview.
 
