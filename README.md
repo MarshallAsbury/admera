@@ -30,12 +30,13 @@ For example, using the heapq module in python3 for Problem A is not allowed.
 
 # Problem B
 
-1. Implement a Binary Search Tree (BST)
-2. Create a function that convert can convert the following list to a BST
-    - [1, 5, 10, 12, 6, 100000, 9, 8, 75]
-3. Create a search function that finds a given number
-    - If a number is found the function should return the search path as a list
-4. Use the function from #3 to search for the number 10
+Review the Python3 code in groceries.py
+The code will be used to keep track of and calculate the prices of groceries for users for a grocery delivery app.
+However there's a bug and the prices for the groceries are not accurate.
+
+1. Identify the bug in the code.
+2. Write a fix.
+3. Be ready to explain the bug.
 
 # Problem C
 
