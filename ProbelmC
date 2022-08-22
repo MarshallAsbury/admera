@@ -1,1 +1,25 @@
 
+import queue
+
+
+samples = []
+samples.append((1, ""))
+samples.sort(reverse = True)
+while samples:
+    print(samples.pop())
+
+Samples1=['A', '07/05/2022','regular']
+Samples2=['B', '07/12/2022','expedited']
+Samples3=['C', '07/18/2022','regular']
+Samples4=['D', '06/05/2022','regular']
+Samples5=['E', '07/15/2022','expedited']
+Samples6=['F', '07/16/2022','regular']
+Samples7=['G', '07/14/2022','expedited']
+Samples8=['I', '07/13/2022','regular']
+Samples9=['J', '07/15/2022','expedited']
+Samples10=['L', '07/04/2022','regular']
+Samples11=['M', '07/11/2022','expedited']
+
+if index[3] is expedited then add 14 to date
+if index[3] is regular thaen add 7 days to date
+queue[samples]
