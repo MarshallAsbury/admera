@@ -1,0 +1,101 @@
+
+class GroceryItem:
+    """
+        Represents an item from the Grocery store.
+    """
+    
+    name = ''
+    price =  0.00
+
+    def __init__(self, name: str, price: float):
+        self.name = name
+        self.price = price
+
+    def set_name(self, name: str) -> None:
+        self.name = name
+    def set_price(self, price: float) -> None:
+        self.price = price
+
+    def get_name(self) -> str:
+        return self.name
+    def get_price(self) -> float:
+        return self.price
+
+class GroceryList:
+    """
+        Represents groceries.
+    """
+
+    groceries = []
+    groceries2 = []
+    groceries3 = []
+
+    def __init__(self):
+        pass
+
+    def add_item(self, item: GroceryItem) -> None:
+        self.groceries.append(item)
+    
+    def total_price(self) -> float:
+        total = 0.00
+        for item in self.groceries:
+            total = total + item.get_price()
+        return total 
+
+    def add_item2(self, item: GroceryItem) -> None:
+        self.groceries2.append(item)
+
+    def total_price2(self) -> float:
+        total2 = 0.00
+        for item in self.groceries2:
+            total2 = total2 + item.get_price()
+        return total2   
+
+    def add_item3(self, item: GroceryItem) -> None:
+        self.groceries3.append(item)
+
+    def total_price3(self) -> float:
+        total3 = 0.00
+        for item in self.groceries3:
+            total3 = total3 + item.get_price()
+        return total3    
+
+
+# make a few lists
+# all of the prices are wrong
+
+
+if __name__ == '__main__':
+    milk = GroceryItem('milk', 3.99)
+    eggs = GroceryItem('eggs', 2.99)
+    bread = GroceryItem('bread', 3.99)
+    chicken = GroceryItem('chicken', 8.99)
+    peppers = GroceryItem('peppers', 0.99)
+    scallops = GroceryItem('scallops', 19.99)
+    tofu = GroceryItem('tofu', 1.99)
+    wine = GroceryItem('wine', 12.99)
+    lemon = GroceryItem('lemon', 0.45)
+    
+    grocery_a = GroceryList()
+    grocery_b = GroceryList()
+    grocery_c = GroceryList()
+
+    grocery_a.add_item(milk)
+    grocery_a.add_item(eggs)
+
+    print(grocery_a.total_price())
+
+    grocery_b.add_item2(bread)
+    grocery_b.add_item2(scallops)
+    grocery_b.add_item2(lemon)
+    grocery_b.add_item2(lemon)
+    grocery_b.add_item2(lemon)
+    grocery_b.add_item2(wine)
+
+    print(grocery_b.total_price2())
+
+    grocery_c.add_item3(chicken)
+    grocery_c.add_item3(peppers)
+    grocery_c.add_item3(tofu)
+
+    print(grocery_c.total_price3())
