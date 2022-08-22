@@ -99,3 +99,12 @@ if __name__ == '__main__':
     grocery_c.add_item3(tofu)
 
     print(grocery_c.total_price3())
+    
+    #FIX: 
+
+#The Grand total was appending to the previous total of each list. 
+#The program did not individually add up each separate grocery list. 
+#To fix this I just created a second and third grocery list variable to append to total. 
+#Fixs are found between 40 - 60
+    
+    
